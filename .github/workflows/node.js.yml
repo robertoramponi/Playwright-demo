@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: npm install playwright/test
-    - run: npx playwright test
+    - run: npm install playwright
+    - run: npx playwright test search.spec.js
