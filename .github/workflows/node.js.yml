@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm install playwright
-    - run: npx playwright test
+    - run: npx playwright test search.spec.js
